@@ -1,0 +1,71 @@
+.navBar {
+  height: 8vh;
+  width: 100%;
+  background-color: #A64EC9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.homeTitle {
+  h2 {
+    color: white;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+  }
+}
+
+.logoNavBar {
+  height: 40px;
+  width: auto;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+.navBarLinksContainer {
+  display: flex;
+  width: 25%;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 20px;
+  h5 {
+    color: white;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    white-space: nowrap;
+  }
+}
+
+.getThisAppIcon {
+  height: 35px;
+  width: auto;
+}
+
+.getThisAppIcon:hover {
+  cursor: pointer;
+}
+
+.navButton {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font: inherit;
+  color: #A64EC9;
+  cursor: pointer;
+  background-color: #A64EC9;
+  p {
+    align-self: center;
+  }
+}
+
+.navButton:hover {
+  background-color: #17e9e0;
+}
