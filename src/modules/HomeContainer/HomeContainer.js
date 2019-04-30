@@ -8,7 +8,7 @@ class HomeContainer extends Component {
   render() {
     return (
       <Container className={styles.mainContainer}>
-				<h1> HIIII </h1>
+				<h1> hi i love jeremy </h1>
         <MusicVideoListContainer />
 			</Container>
     );
