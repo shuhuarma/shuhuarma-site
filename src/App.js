@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import NavHeader from './modules/NavHeader';
+import HomeContainer from './modules/HomeContainer';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <NavHeader />
+        <HomeContainer />
       </div>
     );
   }

@@ -1,0 +1,48 @@
+.mainContainer {
+	width: 100%;
+	height: 20vh;
+	min-width: 100vh;
+	border-width: thin medium thick 1px;
+	border-radius: 20px;
+	border: dotted;
+	margin: 10px;
+	border-color: #ffb48f;
+	display: flex;
+}
+
+.imageContainer {
+	width: 20%;
+	padding: 10px;
+	img {
+		height: 15vh;
+		width: auto;
+	}
+}
+
+
+.statContainer {
+	display: flex;
+	width: 70vh;
+	flex-direction: column;
+	h3 {
+    font-family: 'Montserrat', sans-serif;
+    white-space: nowrap;
+	}
+}
+
+.stats {
+	display: flex;
+	width: 70vh;
+}
+
+.counts {
+	margin-right: 20px;
+	height: 5vh;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	h1 {
+		font-family: 'Montserrat', sans-serif;
+		margin-right: 5px;
+	}
+}

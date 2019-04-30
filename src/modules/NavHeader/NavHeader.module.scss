@@ -29,6 +29,7 @@
 .navBarLinksContainer {
   display: flex;
   width: 25%;
+
   align-items: center;
   justify-content: flex-end;
   padding-right: 20px;
@@ -52,8 +53,9 @@
 .navButton {
   padding-left: 10px;
   padding-right: 10px;
-  height: 8vh;
   display: flex;
+  height: 8vh;
+  align-self: center;
   justify-content: center;
   align-items: center;
   border: none;
@@ -61,7 +63,7 @@
   color: #A64EC9;
   cursor: pointer;
   background-color: #A64EC9;
-  p {
+  h5 {
     align-self: center;
   }
 }

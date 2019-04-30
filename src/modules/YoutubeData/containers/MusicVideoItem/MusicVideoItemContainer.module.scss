@@ -1,0 +1,19 @@
+.mainContainer {
+	width: 100%;
+	height: 20vh;
+	border-width: thin medium thick 1px;
+	border-radius: 20px;
+	border: dotted;
+	margin: 10px;
+	border-color: #ffb48f;
+	display: flex;
+}
+
+.imageContainer {
+	width: 30%;
+	padding: 10px;
+	img {
+		height: 15vh;
+		width: auto;
+	}
+}
