@@ -2,11 +2,11 @@
 	width: 100%;
 	height: 20vh;
 	min-width: 100vh;
-	border-width: thin medium thick 1px;
-	border-radius: 20px;
-	border: dotted;
-	margin: 10px;
-	border-color: #ffb48f;
+	border-width: thin medium thick 0.01em;
+	margin-bottom: 40px;
+	border-color: #DCDCDC;
+	box-shadow:
+    1px 3px 3px 2px rgba(0,0,0,0.15);
 	display: flex;
 }
 
@@ -22,8 +22,10 @@
 
 .statContainer {
 	display: flex;
-	width: 70vh;
+	width: 80%;
 	flex-direction: column;
+	padding-left: 20px;
+	padding-right: 20px;
 	h3 {
     font-family: 'Montserrat', sans-serif;
     white-space: nowrap;
@@ -32,7 +34,7 @@
 
 .stats {
 	display: flex;
-	width: 70vh;
+	justify-content: space-between;
 }
 
 .counts {
