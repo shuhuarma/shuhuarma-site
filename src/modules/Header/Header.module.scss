@@ -1,0 +1,57 @@
+
+.mainContainer {
+  height: 100vh;
+  background-color: #ff5b07;
+}
+
+.mainContainer:hover {
+}
+
+.jumbotronContainer {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #5D0D88;
+  background-size: cover;
+  p {
+    font-family: 'Courgette', sans-serif;
+  }
+}
+
+.mainText {
+  p {
+    font-size: 60px;
+    color: white;
+  }
+}
+
+.helperText {
+  width: 130vh;
+  margin-top: 10px;
+  p {
+    font-size: 30px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+
+.logoContainer {
+  width: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 40vh;
+		padding-bottom: 20px;
+		height: auto;
+  }
+}
+
+.downloadButton:hover {
+  cursor: pointer;
+}

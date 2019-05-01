@@ -1,8 +1,39 @@
+
 .mainContainer {
+  height: 100vh;
+  background-color: #ff5b07;
+}
+
+.mainContainer:hover {
+}
+
+.jumbotronContainer {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background:
+    linear-gradient(
+       rgba(124, 10, 2, 0.5),
+       rgba(124, 10, 2, 0.5),
+     ),
+   url('./senorita_bg.jpg');
+  background-size: cover;
+  p {
+    font-size: 100px;
+    font-weight: 100;
+    line-height: 50px;
+    color: white;
+    font-family: 'Courgette';
+  }
+}
+
+.totalContainer {
 	width: 100%;
-	height: 20vh;
+	height: 12vh;
 	min-width: 100vh;
-	background-color: rgba(255,255,255, 0.4);
+	background-color: rgba(255,255,255, 0.8);
 	border-width: thin medium thick 0.01em;
 	box-shadow:
     1px 3px 3px 2px rgba(0,0,0,0.15);
@@ -21,12 +52,15 @@
 
 .statContainer {
 	display: flex;
-	width: 80%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+	width: 100%;
 	flex-direction: column;
 	padding-left: 20px;
 	padding-right: 20px;
 	h3 {
 		color: #5D0D88;
+    font-weight: bold;
     font-family: 'Quicksand', sans-serif !important;
     white-space: nowrap !important;
 	}
@@ -45,6 +79,7 @@
 	justify-content: flex-start;
 	h1 {
 		color: #5D0D88;
+    font-weight: bold;
 		font-family: 'Quicksand', sans-serif !important;
 		margin-right: 5px !important;
 	}

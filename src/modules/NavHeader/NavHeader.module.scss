@@ -1,7 +1,7 @@
 .navBar {
   height: 8vh;
   width: 100%;
-  background-color: #A64EC9;
+  background-color: rbg(0,0,0,0.2);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,7 +13,7 @@
 .homeTitle {
   h2 {
     color: white;
-    font-size: 24px;
+    font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     margin-left: 20px;
   }
@@ -52,22 +52,16 @@
 .navButton {
   padding-left: 10px;
   padding-right: 10px;
+  background-color: rbg(0,0,0,0.2);
   padding-bottom: 20px;
   height: 8vh;
 
   border: none;
   font: inherit;
-  color: #A64EC9;
-  cursor: pointer;
-  background-color: #A64EC9;
   a {
     height: 8vh;
   }
   h5 {
     margin-bottom: 3vh;
   }
-}
-
-.navButton:hover {
-  background-color: #17e9e0;
 }

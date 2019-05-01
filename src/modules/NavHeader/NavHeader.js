@@ -11,21 +11,14 @@ class NavHeader extends Component {
           <h2>shuhuarma...</h2>
         </div>
         <div className={styles.navBarLinksContainer}>
-          <Button
-            className={styles.navButton}
-
-          >
+          <a className={styles.navButton}>
             <h5>what on latata is dis?</h5>
-          </Button>
-          <a  href="https://twitter.com/G_I_DLE" target="_blank">
-            <Button className={styles.navButton}>
-              <h5>stan (g)i-dle</h5>
-            </Button>
           </a>
-          <a  href="https://twitter.com/shuhuarma" target="_blank">
-            <Button className={styles.navButton}>
-              <h5>yeorobun</h5>
-            </Button>
+          <a  className={styles.navButton} href="https://twitter.com/G_I_DLE" target="_blank">
+            <h5>stan (g)i-dle</h5>
+          </a>
+          <a className={styles.navButton} href="https://twitter.com/shuhuarma" target="_blank">
+            <h5>yeorobun</h5>
           </a>
         </div>
       </Navbar>

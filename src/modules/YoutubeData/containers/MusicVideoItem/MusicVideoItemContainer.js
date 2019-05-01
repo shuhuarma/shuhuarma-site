@@ -15,7 +15,7 @@ class MusicVideoItemContainer extends Component {
 	}
 
 	componentDidMount() {
-		this.loadData();
+		// this.loadData();
 	}
 
 	loadData = () => {
